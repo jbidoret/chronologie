@@ -48,3 +48,11 @@ Icon
 # ---------------
 
 /site/config/.license
+
+# Content
+# ------------
+
+/content/*
+!/content/site.txt
+!/content/home/home.txt
+!/content/error/error.txt
