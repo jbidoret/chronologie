@@ -1,3 +1,6 @@
 [submodule "kirby"]
 	path = kirby
 	url = https://github.com/getkirby/kirby.git
+[submodule "site/plugins/kirby-plugin-custom-add-fields"]
+	path = site/plugins/kirby-plugin-custom-add-fields
+	url = https://github.com/steirico/kirby-plugin-custom-add-fields.git
