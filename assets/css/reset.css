@@ -1,0 +1,45 @@
+body {
+  font-family: var(--basefamily);
+  font-size: var(--basesize);
+  color: var(--text-color);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: var(--line-height);
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+
+p,
+ul,
+ol,
+blockquote {
+  max-width: 75ch;
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}

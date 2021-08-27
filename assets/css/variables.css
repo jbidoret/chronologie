@@ -1,0 +1,15 @@
+:root {
+  --basesize: 1.15rem;
+  --basefamily: Georgia, serif;
+  --line-height: 1.4;
+  --text-color: rgba(0, 0, 0, 0.75);
+  --background-color: #eee;
+  --padding: 1em;
+  --margin: 2em;
+}
+@media (max-width: 800px) {
+  :root {
+    --padding: 1em;
+    --margin: 1em;
+  }
+}
