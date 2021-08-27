@@ -9,16 +9,35 @@
   
   <?php snippet("header.metas") ?>
 
-  <?= css("main.css") ?>
+  <?= css("assets/css/index.css") ?>
 
 </head>
 <body
    data-slug="<?= $page->slug() ?>"
-   data-login="<?php e($kirby->user(),'true', 'false') ?>"
+   data-login="<?php e($kirby->user(), 'true', 'false') ?>"
    data-template="<?php echo $page->template() ?>"
    data-intended-template="<?php echo $page->intendedTemplate() ?>">
 
   <header id="header">
     <h1><a href="<?= $site->url() ?>"><?= $site->title() ?></a></h1>
+    
+    <nav>
+      <ul>
+      <?php foreach ($site->children()->listed() as $p): ?>
+        <li <?php e($p->isOpen(), 'class="open"') ?>>
+          <a href="<?= $p->url() ?>"><?= $p->title() ?></a>
+        </li>
+      <?php endforeach ?>
+      </ul>
+      <?php if ($page->intendedTemplate() == "session"):  ?>
+        <ul>
+        <?php foreach ($page->siblings()->listed() as $sub): ?>
+          <li <?php e($sub->isOpen(), 'class="open"') ?>>
+            <a href="<?= $sub->url() ?>"><?= $sub->year() ?></a>
+          </li>
+        <?php endforeach ?>
+        </ul>
+      <?php endif ?>
+    </nav>
+
   </header>
-  
