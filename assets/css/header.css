@@ -1,0 +1,14 @@
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding);
+}
+#nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+#nav ul li {
+  margin-left: 0.5em;
+}

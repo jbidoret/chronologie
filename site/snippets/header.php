@@ -9,7 +9,7 @@
   
   <?php snippet("header.metas") ?>
 
-  <?= css("assets/css/index.css") ?>
+  <?= css(["assets/css/index.css", "@auto"]) ?>
 
 </head>
 <body
@@ -21,7 +21,7 @@
   <header id="header">
     <h1><a href="<?= $site->url() ?>"><?= $site->title() ?></a></h1>
     
-    <nav>
+    <nav id="nav">
       <ul>
       <?php foreach ($site->children()->listed() as $p): ?>
         <li <?php e($p->isOpen(), 'class="open"') ?>>
