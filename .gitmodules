@@ -7,3 +7,6 @@
 [submodule "site/plugins/markdown-field"]
 	path = site/plugins/markdown-field
 	url = https://github.com/sylvainjule/kirby-markdown-field
+[submodule "site/plugins/kirby-autoresize"]
+	path = site/plugins/kirby-autoresize
+	url = https://github.com/medienbaecker/kirby-autoresize

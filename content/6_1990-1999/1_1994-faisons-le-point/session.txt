@@ -6,11 +6,56 @@ Introduction:
 
 ----
 
-Text: 
+Introduction-text: 
 
 ----
 
-Details: 
+Text:
+
+La culture typographique de Ladislas Mandel, typographie | *Evelyn Audureau, Pierre-Jean Balbo, Gérard Blanchard, Dominique Doré, Thierry Gouttenègre, Giorgio Montecchi, Olivier Nineuil & Jean-François Porchez*
+La création typographique à l'ère de la micro-informatique | *Guillaume Oriol*
+Mono, lino, lumitype, informatique. Les hommes et leurs machines | *Alan Marshall*
+Le 1er Photo-CD sur la typographie | *Gérard Blanchard*
+Il n'y a pas d'abbaye digne de ce nom sans scriptorium | *Véronique Sabard, Vincent Geneslay & Laurent Rébéna*
+
+La nouvelle typographie anglo-saxonne et les problèmes qu'elle pose par rapport aux pratiques traditionnelles fonctionnalistes ou néo-classiques | *Gérard Mermoz*
+Itinéraire international d'un graphiste | *Philippe Apeloig*
+Etat des lieux du graphisme en France | *Catherine Guillemin*
+Les lieux et évènements du graphisme | *Blandine Bardonnet, Patrick Giraudo & Diego Zaccaria*
+Table ronde: Comment exposer des oeuvres graphiques et parler du graphisme en France | *Marc Combier, Blandine Bardonnet, Patrick Giraudo & Diego Zaccaria*
+
+Un échange de vues franco-américain sur le multimédia | *Mark Heyer & Bernard Prost*
+Droits d'auteur et multimédia | *Gilles Vercken*
+Le multimédia en Pologne | *Académie des Beaux-Arts de Cracovie*
+
+Quatre siècles d'illustration de livres pour enfants | *Jean-Paul Gourévitch*
+La couleur du vert | *Laurence Decréau*
+Gallimard Jeunesse | *Raymond Rener*
+Exister à côté des grands | *Charlotte Ruffault*
+L'édition française devant ses marchés | *François Richaudeau*
+L'évolution de la formation aux métiers de l'édition | *Pierre Tabourdeau*
+Face à l'emploi des nouvelles technologies dans l'édition scolaire, une graphiste s'interroge | *Evelyn Audureau*
+
+Du rébus au calligramme | *Jacques Monnier-Raball*
+Hypermédia et fonctionnement cognitif | *Dr Jean-Jacques Ducret*
+Des Sciences Cognitives à la Neuro-Heuristique | *Dr Alexandre Villa* 
+Les jeux vidéo | *Pierre Berloquin, Olivier Enselme-Trichard, Jean R.Billharz & Pierre Gosselin*
+L'écriture interactive | *Florent Aziosmanoff*
+
+----
+
+Details:
+
+**Spectacles**
+Le poème de l'olive, lu par *Roger Pasturel*
+Romances Occitanes, *René Sette & Pierre Bonnet*
+**Evenements**
+Hommage à Vox
+Inauguration de la plaque hommage à Maximilien Vox, gravée par Jean-Claude Lamborot
+
+----
+
+Lecturers: Evelyn Audureau, Pierre-Jean Balbo, Gérard Blanchard, Dominique Doré, Thierry Gouttenègre, Giorgio Montecchi, Olivier Nineuil, Jean-François Porchez, Guillaume Oriol, Alan Marshall, Véronique Sabard, Vincent Geneslay, Laurent Rébéna, Gérard Mermoz, Philippe Apeloig, Catherine Guillemin, Blandine Bardonnet, Patrick Giraudo, Diego Zaccaria, Marc Combier, Mark Heyer, Bernard Prost, Gilles Vercken, Jean-Paul Gourevitch, Laurence Decréau, Raymond Rener, Charlotte Ruffault, François Richaudeau, Pierre Tabourdeau, Jacques Monnier-Raball, Jean-Jacques Ducret, Alexandre Villa, Pierre Berloquin, Olivier Enselme-Trichard, Jean R.Billharz, Pierre Gosselin, Florent Aziosmanoff, Roger Pasturel, René Sette, Pierre Bonnet
 
 ----
 
@@ -36,3 +81,7 @@ Theme: 0lf6zjuw
 Cover:
 
 - 1994-prog-couv.jpg
+
+----
+
+People: 

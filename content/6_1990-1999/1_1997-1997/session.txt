@@ -6,11 +6,41 @@ Introduction:
 
 ----
 
-Text: 
+Introduction-text: 
+
+----
+
+Text:
+
+La création typographique contemporaine | *Gerard Unger*
+A propos des créations de Zuzana Licko | *Gérard Blanchard*
+Les nouvelles créations en cyrillique | *Maxime Joukov*
+Typographie pour les annuaires téléphoniques | *Ladislas Mandel & Richard Southall*
+
+The End of Print | *David Carson & Lewis Blackwell*
+Parcours d'une graphiste | *Catherine Zask*
+Florence Moulin, Valérie Ronteix, Panorama des créations de trois graphistes | *Thérèse Troïka*
+La création dans la revue «Graphis» | *Jan Burney*
+
+L'articulation entre technique traditionnelle et technique nouvelle | *Jacques Monnier-Raball*
+Conférence | *Bernard Campiche*
+Les nouveaux développements de l'édition multimédia | *Gaëtan Egglof*
+Cinéma, télévision et publicité: le parcours d'un réalisateur | *Luc Béraud*
+Nouvelles technologies et création télévisuelle | *Jacques Barsac*
+
+Le principe d'interactivité: nature et enjeu pour la création | *Françoise Holtz Bonneau*
+Ecriture multimédia et création en réseau | *Art 3000*
+Modalité et prosepctive de l'art en réseau | *Anne-Marie Morice*
+«Ici la Lune», supermédia | *Arnaud Le Duedec, Benoît Plâtre & Vincent Queguiner*
+La conception visuelle des jeux | *Pascale Lapeyre, Pierre-Eric Despinasse & Jérome Tran*
 
 ----
 
 Details: 
+
+----
+
+Lecturers: Gerard Unger, Gérard Blanchard, Maxime Joukov, Ladislas Mandel, Richard Southall, David Carson, Lewis Blackwell, Catherine Zask, Thérèse Troïka, Jan Burney, Jacques Monnier-Raball, Bernard Campiche, Gaëtan Egglof, Luc Béraud, Jacques Barsac, Françoise Holtz-Bonneau, Art 3000, Anne-Marie Morice, Arnaud Le Duedec, Benoît Plâtre, Vincent Queguiner, Pascale Lapeyre, Pierre-Eric Despinasse, Jérôme Tran
 
 ----
 

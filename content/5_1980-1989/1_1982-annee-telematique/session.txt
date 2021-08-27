@@ -1,4 +1,4 @@
-Title: Année télématique
+Title: L'écriture télématique
 
 ----
 
@@ -36,6 +36,4 @@ Theme: 0lf6zjuw
 
 ----
 
-Cover:
-
-- 1982-prog-couv-recta.jpg
+Cover: - 1982-prog-couv-recta.jpg

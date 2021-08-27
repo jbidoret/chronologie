@@ -21,7 +21,6 @@ En faisant étape chez Blaise Cendrars, il y revient en 1952 avec Jean Giono, et
 Sous le titre « vers d’autres clartés » ou « manifeste de l’An 1 » émise par la « Retraite graphique de Haute Provence », une invitation à rejoindre Vox et ses complices à Lurs est adressée pour l’été 1953 à toutes les connaissances professionnelles et amicales. Les amis des amis, et leurs étudiants éventuels découvriront et se retrouveront fidèlement dans le village. Bientôt nombre d’entre eux achèteront des maisons, et bâtiront même un théâtre de plein air, inspiré de l’antique, afin d’organiser des représentations théâtrales.
 
 En 1957 la forme administrative d’une association selon la loi de 1901 est retenue pour organiser le groupe, l’activité et l’intendance... « Les Compagnons de Lure » forment une entité distincte et autonome.
-
 Une grange vide acquise par Maximilien Vox est sommairement aménagée en salle de conférence puis renommée solennellement « la Chancellerie » ; c’est le lieu où se retrouveront chaque été les professionnels des métiers de l’imprimerie, de plus en plus nombreux, posant des problèmes d’organisation dans le petit village ! Le petit bistrot du père Moulet deviendra en trois générations un vrai restaurant où François Grisolle accueillera la centaine de participants pendant des années.
 
 Les « piliers » des débuts sont Charles Peignot, Gérard Blanchard venu à 18 ans, les Italiens Aldo Novarèse et Cesare Maletto, éditeur, les Belges Michel Olyff du groupe Cobra, Fernand Baudin et De Roeck, l’Anglais John Dreyfus ; l’historien René Ponot, Ladislas Mandel, puis Christian Delorme, Yves Perrousseaux, et bien d’autres...
@@ -45,6 +44,10 @@ Premier manifeste : *"Notre appel est limité. Il ne s'adresse qu'à un nombre r
 
 ----
 
+Lecturers: 
+
+----
+
 Gallery:
 
 - 1953_le_serment_de_lure-1.jpg
@@ -60,10 +63,10 @@ Theme: 0lf6zjuw
 
 ----
 
-People: Maximilien Vox, Jean Giono, Jean Garcia, Robert Ranc, Charles Peignot
-
-----
-
 Cover:
 
 - 1953-vox-giono-et-cie.jpg
+
+----
+
+People: Maximilien Vox, Jean Giono, Jean Garcia, Robert Ranc, Charles Peignot

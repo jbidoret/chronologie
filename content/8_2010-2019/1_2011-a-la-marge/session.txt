@@ -6,10 +6,53 @@ Introduction:
 
 ----
 
-Text:
+Introduction-text:
 
 Ce qui est écrit à côté du texte, ou bien ce qui ne compte pas ? À la marge, celui qui alimente la machine à imprimer, ou bien celui qui a fait un pas de côté, s’éloignant de la masse. À la marge celui qui dessine au lieu de noter, celui qu’on finit par repousser, ou celui qui donnera le sens des choses, plus tard.
 Car c’est à la marge qu’on trouve ce qui structure, ce qui relie. Ce qui déconstruit, ce qui explore. À la marge, le fond perdu, le prix de l’inattention. Typographes, designers, artistes contemporains, créateurs des médias numériques, auteurs et analystes griffonnent leurs mots et leurs images, et refont le monde aux Rencontres internationales de Lure.
+
+----
+
+Text:
+
+Trois mots, un | *Françoise Neveu*
+Récréations | *Claire Bardainne & Vincenzo Susca*
+Une question d'échelle | *François Weil*
+Pierre-Feuille-Ciseaux | *Didier Mazellier & Heureux les Cailloux*
+Affisuisse | *Niklaus Troxler*
+Surveille tes marges | *Damien Gautier*
+Mutations du caractère typographique | *Lucille Guigon*
+Les plus beaux livres belges | *Alexia de Visscher*
+On fait le mur | *Le pirate du lundi*
+
+Trois mots, deux | *Françoise Neveu*
+La graphique de Monsieur B. | *Jacques Thomas*
+L'espcae entre les mots | *Sam Winston*
+Entre "drôlerie" et érudition, marginalia des codex manuscrits et imprimés | *Eve Netchine*
+Satellites, ou comment organiser sa survie | *Gaël Etienne*
+Verba volant, scripta manent | *Philippe Millot*
+Allez-marge | *Susanna Stammbach*
+Yves Perrousseaux tourne une page | *David Rault*
+Processing Lure | *Mark Webster*
+
+Trois mots, trois | *Françoise Neveu*
+Le Polyglot, ou comment traduire la typographie | *Morgane Rébulard*
+VTF ou la typographie à l'ère du loisible | *Frank Adebiaye*
+Les légendes de l'image | *Michel Melot*
+Le vertige du funambule | *Annick Lantenois*
+Albert Boton, dessins à la marge | *Albert Boton*
+Des cercles aux liens | *Laurent Vannini*
+Paperolles | *Yulia Brodskaya*
+L'émergence des marges | *Henri Mérou*
+
+Trois mots, non quatre | *Françoise Neveu*
+Et si on laissait (re)passer les p'tits papiers... | *Jean-Philippe Zappa*
+Ouvertures | *Tom Henni*
+Petit enseignement du prophète | *Nawal Bakouri*
+Obsession typographique | *Christian Schwartz*
+Fous et savants | *Laurent Lemire*
+Blurring frontiers | *Camille Scherrer*
+Interviouve marginale baille Susanna Shannon | *Etienne Robial*
 
 ----
 
@@ -17,6 +60,10 @@ Details:
 
 ### Version en ligne
 https://delure.org/les-rencontres/rencontres-precedentes/rencontres-2011
+
+----
+
+Lecturers: Françoise Neveu, Claire Bardainne, Vincenzo Susca, François Weil, Didier Mazellier, Niklaus Troxler, Damien Gautier, Lucille Guigon, Alexia de Visscher, Le Pirate du Lundi, Jacques Thomas, Eve Netchine, Gaël Etienne, Philippe Millot, Susanna Stammbach, Mark Webster, David Rault, Sam Winston, Morgane Rébulard, Frank Adebiaye, Michel Melot, Annick Lantenois, Albert Boton, Laurent Vannini, Yulia Brodskaya, Jean-Philippe Zappa, Tom Henni, Nawal Bakouri, Christian Schwartz, Laurent Lemire, Camille Scherrer, Etienne Robial, Henri Mérou
 
 ----
 

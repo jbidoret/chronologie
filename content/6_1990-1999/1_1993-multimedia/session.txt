@@ -18,15 +18,18 @@ La carte est le territoire; le paysage comme artifice | *Jacques Monnier-Raball*
 Un système multimédia sur la chanson française | *Insitut National de l'Audiovisuel*
 Multimédia: une nouvelle création pour l'art et la littérature | *Orlando Carreno*
 L'enseignements sur films "vues fixes" | *Yves Rifaux*
+
 Les nouvelles technologies du multimédia proposent-elles de nouveaux langages pour la création ? | *Jean-Luc Gervasoni*
 Télévision vidéo haute définition, vidéo haute définition et multimédia | *Jacques Barsac*
 Le multimédia et le média vidéo | *Bruno Bernard*
 Enfants et adultes face aux stimulis graphiques des jeux vidéo | *Jean-Paul Gourevitch*
 Les lexies de l'audio-scripto-visuel | *Gérard Blanchard*
+
 Design graphiques des interfaces utilisateur | *François Olyff*
 L'hypertexte: pourquoi et comment ? | *Roger Laufer*
 Le multimédia au Québec | *Claude Cossette*
 Le multimédia dans tous ses états | *Eric Rousseau*
+
 Du texte numérisé au texte balisé | *Daniel Goldwaser*
 L'interface multimédia | *Pierre Berloquin*
 Intégration de la typographie dans le multimédia: une réflexion prospective | *Bernard Prost*
@@ -67,10 +70,10 @@ Theme: 0lf6zjuw
 
 ----
 
-People: 
-
-----
-
 Cover:
 
 - 1993-prog-couv-rect-1024x.jpg
+
+----
+
+People: 

@@ -73,10 +73,10 @@ Theme: 0lf6zjuw
 
 ----
 
-People: 
+Cover:
+
+- 1974-prog-couv4.jpg
 
 ----
 
-Cover:
-
-- 1974-prog-couv-rect.jpg
+People: 

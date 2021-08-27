@@ -6,11 +6,48 @@ Introduction:
 
 ----
 
-Text: 
+Introduction-text: 
+
+----
+
+Text:
+
+La notion de connotation en typographie | *Gérard Blanchard*
+La lettre en bronze & la 3e dimension | *Thierry Gouttenègre*
+Pour une typographie créole | *Agnès Brézéphin*
+Carte blanche | *José Mendoza y Almeida*
+La typo visible & la typo invisible | *René Ponot*
+Problèmes de classification pour la typographie | *Hector Obalk*
+Pour une création typographique aujourd'hui | *Jean-Louis Estève, Laurence Collard, Lola Duval, Bruce Pleiser, J.-C. Hyvernat*
+
+La «Typo Avancée» du correcteur Pro Lexis | *Béatrix & Roger Rainero*
+«Un conte à votre façon» de Raymond Queneau | *Carol-Ann Holzberger*
+Un CD-Rom pour Picasso | *Marie-Astrid Bailly-Maître & Agnès d'Orval*
+L'image & la typographie comme composante de l'écriture littéraire | *Olivier Nineuil & Yann Autret*
+Terres Adélie: de l'écrit au graphique | *Emmanuel Bing, Serge Cortesi & Françoise Neveu*
+Les Ateliers d'écriture: de l'exploration des territoires de l'écriture au travail de la forme littéraire | *Elisabeth Bing*
+
+Les mutations de la communication graphique à la fin du Quattrocento | *André Jean-Marc Loechel*
+Un an de révolution sur Internet | *Pierre Berloquin*
+La typographie & le CD-Rom | *Eric Leguay*
+Internet & Intranet au service de la diffusion du livre | *Claude Rabuté*
+Le projet européen METASA: quatre villes toutes numérisées | *Jean Billharz*
+Les paysages de l'information: la typographie dans le temps & dans l'espace | *David Small*
+
+Du squelettre à la mariolettre | *Clotilde Olyff*
+Créations typo d'avant-garde | *Christophe Thomas*
+«Bulldozer»: revue graphique à Paris | *Frédéric Bortolotti*
+L'autocritique comme source d'inspiration | *Martin Majoor*
+Poinçons informatiques | *Fred Smeijers*
+Créations typographiques récentes | *Thierry Puyfoulhoux*
 
 ----
 
 Details: 
+
+----
+
+Lecturers: Gérard Blanchard, Thierry Gouttenègre, Agnès Brézéphin, José Mendoza y Almeida, René Ponot, Hector Obalk, Jean-Louis Estève, Laurence Collard, Lola Duval, Bruce Pleiser, J.-C. Hyvernat, Béatrix Rainero, Roger Rainero, Carol-Ann Holzberger, Marie-Astrid Bailly-Maître, Agnès d'Orval, Olivier Nineuil, Yann Autret, Emmanuel Bing, Serge Cortesi, Françoise Neveu, Elisabeth Bing, André Jean-Marc Loechel, Pierre Berloquin, Eric Leguay, Claude Rabuté, Jean Billharz, David Small, Clotilde Olyff, Christophe Thomas, Frédéric Bortolotti, Martin Majoor, Fred Smeijers, Thierry Puyfoulhoux
 
 ----
 

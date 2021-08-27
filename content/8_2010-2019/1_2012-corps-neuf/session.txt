@@ -2,18 +2,44 @@ Title: Corps neuf
 
 ----
 
-Introduction: Graphies en renaissance
+Year: 2012
 
 ----
 
-Introduction-text: 
+Introduction: Graphies en renaissance
 
 ----
 
 Text:
 
-Les idées rêvent de venir au monde. La typographie les enfante. L’écriture s’incarne tout autant que le corps s’écrit : identité, gestuelle, inscription, cosmétique ou prothétique, constitution de soi et relation avec l’autre se jouent dans notre intimité des signes. Ceux-ci en témoignent sans cesse, en nous soutenant ou en nous trahissant.
-Cette incarnation nous rappelle notre vraie nature, l’écriture ; avec aussi ses saisons, ses cycles et ses renouvellements. Dans le corps de l’écrit se sédimentent les traces de l’histoire, de ses blessures, de ses plaisirs, de ses déclins et de ses renaissances.
+Feuilletons (chaque matin) | *Jacques Monnier-Raball*
+
+Faire sa marque sans alourdir son empreinte | *Marie Reumont*
+Typographic picture language | *Christopher Burke*
+Dom Sylvester Houédar Père Olivetti | *Roger Smith*
+Les très riches heures du Minitel | *Stephen Belfond*
+
+En déplacement | *Patrick Paleta*
+Corps neuf | *Jacques Monnier-Raball*
+Etats d'âme et caractères | *Sandra Chamaret & Olivier Nineuil*
+Back to the future | *Alejandro Paul*
+Hypnerotomachia Poliphili / Le songe de Poliphile: deux livres, une histoire | *Jean-Baptiste Levée*
+Transports exceptionnels | *Dominique Boivin*
+
+Vox Archivii | *David Castrec*
+Anatomies comparées | *Thomas Huot-Marchand*
+Corpus typographicus | *Olivier Nineuil*
+Faire corps avec le livre | *Marc Perelman*
+Morphing typographie | *Yannick Mathey*
+Engagement graphique | *François Caspar*
+FT\*/MT\*: TRANS-formation | *Hélène Mourrier*
+
+Lecture: sa mécanique et son influence sur la forme des lettres | *Sandrine Nugue*
+Apprendre à écrire: quels enjeux | *Laurence Bedoin*
+Les bancs d'écriture | *Henri Mérou*
+Le retour à la typographie: 1988-98 | *Marc Combier*
+Dysgraphie et calligraphie | *Claire Hollenstein*
+L'écriture en mouvement | *Julien Chazal*
 
 ----
 
@@ -22,9 +48,27 @@ Details:
 ### En savoir plus
 (link: https://delure.org/les-rencontres/rencontres-precedentes/rencontres-2012 text: delure.org/corps-neuf)
 
+**EVENEMENTS**
+Exposition Lettres Types
+Inauguration de la pierre des 60 ans à la Chancellerie
+
 ----
 
-Lecturers: 
+Documents: 
+
+----
+
+Lecturers: Jacques Monnier-Raball, Marie Reumont, Christopher Burke, Roger Smith, Stephen Belfond, Patrick Paleta, Sandra Chamaret, Olivier Nineuil, Alejandro Paul, Jean-Baptiste Levée, Dominique Boivin, David Castrec, Thomas Huot-Marchand, Marc Perelman, Yannick Mathey, François Caspar, Hélène Mourrier, Sandrine Nugue, Laurence Bedoin, Henri Mérou, Marc Combier, Claire Hollenstein, Julien Chazal
+
+----
+
+Cover:
+
+- 2012-08-22dsc_9350-b.jpg
+
+----
+
+People: 
 
 ----
 
@@ -75,18 +119,15 @@ Gallery:
 
 ----
 
-Year: 2012
+Photos: 
+
+----
+
+Introduction-text:
+
+Les idées rêvent de venir au monde. La typographie les enfante. L’écriture s’incarne tout autant que le corps s’écrit : identité, gestuelle, inscription, cosmétique ou prothétique, constitution de soi et relation avec l’autre se jouent dans notre intimité des signes. Ceux-ci en témoignent sans cesse, en nous soutenant ou en nous trahissant.
+Cette incarnation nous rappelle notre vraie nature, l’écriture ; avec aussi ses saisons, ses cycles et ses renouvellements. Dans le corps de l’écrit se sédimentent les traces de l’histoire, de ses blessures, de ses plaisirs, de ses déclins et de ses renaissances.
 
 ----
 
 Theme: 0lf6zjuw
-
-----
-
-People: 
-
-----
-
-Cover:
-
-- 2012-08-22dsc_9350-b.jpg
