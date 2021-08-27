@@ -1,0 +1,79 @@
+title: Session
+
+tabs:
+  content:
+    label: Contenu
+    columns:
+      - width: 2/3   
+        sections:
+          data:
+            type: fields   
+            fields:
+              year:
+                label: Année
+                type: text
+              introduction:
+                label: Introduction
+                type: markdown
+                help: Ne s’affiche que sur la page d’accueil
+              text:
+                label: Texte / Édito / Programme
+                type: markdown
+              details:
+                label: Détails
+                type: markdown
+              documents:
+                label: Documents associés
+                type: markdown
+      - width: 1/3
+        sections:
+          fields:
+            type: fields
+            fields:
+              cover:
+                type: files
+                label: Image de couverture
+                multiple: false
+              people:
+                type: tags
+                label: Intervenants
+          files: 
+            type: files
+            headline: Fichiers
+  medias:
+    label: Médias
+    fields: 
+      gallery:
+        type: files
+        label: Images du programme
+        info: "{{file.layout}}"
+        layout: cards
+      photos:
+        type: files
+        label: Photos emblématiques
+        layout: cards
+
+  context:
+    label: Contexte
+    sections:
+      contexts:
+        type: pages
+        template: context
+        headline: Éléments de contexte
+  stories:
+    label: Souvenirs
+    sections:
+      storiess:
+        type: pages
+        template: story
+        headline: Souvenirs
+
+addFields:
+  year:
+    label: Année
+    type: text
+    required: true
+  title:
+    label: Title
+    type: text
+    required: true

@@ -1,0 +1,44 @@
+title: Décennie
+
+options:
+  changeSlug: false
+  changeTitle: false
+  duplicate: false
+  delete: false
+  changeStatus: false
+
+columns:
+  - width: 2/3
+    sections:
+      meta:
+        type: fields
+        fields:
+          introduction:
+            type: markdown
+            label: Introduction
+      years:
+        type: pages
+        headline: Années
+        template: session
+        
+  - width: 1/3
+    sections:
+      data:
+        type: fields
+        fields:
+          cover:
+            type: files
+            label: Image de couverture
+            multiple: false
+          contributors:
+            type: markdown
+            label: Contributeurs
+      stories:
+        headline: Souvenirs
+        type: pages
+        templates: 
+          - story
+      files:
+        headline: Fichiers
+        type: files
+        
