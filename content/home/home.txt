@@ -2,6 +2,18 @@ Title: Home
 
 ----
 
+Text: Ceci est un texte d’intro
+
+----
+
+Metadescription: 
+
+----
+
+Metaimage: 
+
+----
+
 Headline: Welcome to Kirby's Starterkit
 
 ----

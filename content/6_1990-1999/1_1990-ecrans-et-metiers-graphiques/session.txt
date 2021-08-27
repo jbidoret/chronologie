@@ -1,0 +1,67 @@
+Title: Ecrans et métiers graphiques
+
+----
+
+Introduction: 
+
+----
+
+Introduction-text: 
+
+----
+
+Text:
+
+De la surface à l'interface ou les déplacements matériels de l'imaginaire | *Alain Renaud*
+L'écran, de la protection à la projection | *Yves Rifaux*
+Les écrans, ce qu'ils cachent, ce qu'ils révèlent | *Gérard Blanchard*
+Le graphisme à écran plat et coins carrés* | *Trois-quarts face*
+Poésie et art vidéo | *André Iten*
+Ecrans dans la ville | *Jacques Blociszewski & Bernard Bréchet*
+Le journal télévisé, de la mise en scène à la mise en page | *Pierre Gosselin*
+Les écrans techniques et l'espace mental | *Derrick de Kerckhove*
+La chaîne graphique et ses composantes | *Eric Petit*
+Vers des caractères dépendants de leur environnement | *Jacques André, Christian Delorme & Roger Laufer*
+Le CD-ROM comme support de diffusions d'applications multi-médias | *Bernard Prost*
+Casterman, 200 ans d'édition et d'imprimerie, 2 ans d'écran | *Michel Bareau*
+L'informatique à la redécouverte des grands maîtres de la typographie | *Michel Olyff & Thierry Goutenègre*
+Y aura-t-il toujours une pomme derrière l'écran ? | *Philippe Mailleux*
+Les écrans des nouvelles technologies de communication | *Dominique Doré*
+Les écrans: une pédagogie de l'assistance | *Michèle Zacharia*
+
+----
+
+Details: 
+
+----
+
+Lecturers: Alain Renaud, Yves Rifaux, Gérard Blanchard, André Iten, Jacques Blociszewski, Bernard Bréchet, Pierre Gosselin, Derrick de Kechkove, Eric Petit, Jacques André, Christian Delorme, Roger Laufer, Bernard Prost, Michel Bareau, Michel Olyff, Philippe Mailleux, Dominique Doré, Michèle Zacharia, Thierry Gouttenègre
+
+----
+
+Gallery:
+
+- 1990-prog-couv.jpg
+- 1990-pro1.jpg
+- 1990-prog2.jpg
+- 1990-prog3.jpg
+- 1990-prog4.jpg
+- 1990-prog5.jpg
+- 1990-prog7.jpg
+- 1990-prog8.jpg
+
+----
+
+Year: 1990
+
+----
+
+Theme: 0lf6zjuw
+
+----
+
+People: 
+
+----
+
+Cover: 

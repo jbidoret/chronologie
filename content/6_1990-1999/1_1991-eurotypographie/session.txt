@@ -1,0 +1,87 @@
+Title: Eurotypographie
+
+----
+
+Introduction: 
+
+----
+
+Introduction-text: 
+
+----
+
+Text:
+
+Définitions et lexiques de la typographie en Europe | *F. Holtz Bonneau, J. Monnier-Raball & G. Blanchard*
+Elemmnets de l'histoire de la typographie britannique | *James Mosley*
+Typographical Bifteck avec sauce anglaise | *Colin Banks*
+La rationalité et la convivialité d'Anthony Froshaug | *Roger Smith*
+Panorama de la typographie allemande
+La typographie de Rudolph Koch | *Richard Southall*
+La typographie des pays bas 
+Introduction à la typographie belge | *Fernand Baudin*
+De la page manuscrite à la page imprimée dans la Venise de la Renaissance | *Giorgio Montecchi*
+De subiaco, par Venise et Parme, jusqu'à...Lurs, un parcours à travers la typographie italienne | *Cesare Maletto*
+Aujourd'hui l'Italie se rappelle-t-elle de ses racines ? Panorama de la production graphique «Lumières et Ombres» | Piero De Macchi   
+Fonction politique et idéologie de la typographie au Pays Basque | *José-Maria Sanchez-Cuesta*
+Introduction à la typographie suisse | *Jacques Monnier Raball*
+Panorama de la typographie suisse | *Roger Châtelain*
+L'oeuvre de Charles Peignot | *John Dreyfus*
+La distinction française en typographie | *Gérard Blanchard*
+Existe-t-il une typographie française ? | *John Dreyfus, Fernand Baudin, Ladislas Mandel, Cesare Maletto...*
+La polotoque éditoriale de la CNMHS, analyse et comparaison avec les autres pays europées | *Gilles de Langsdorff*
+Similitudes et différences de la typographie de chaque côté de l'Atlantique | *Matthew Carter*
+Le projet Fuse et la typographie expérimentale chez FontShop International | *Jürgen Siebert & Rudy Geeraerts*
+Système Ikarus | *Peter Karow*
+Monotype Typography | *René Kerfante*
+L'offre typographique d'Alfac | *Michel Olyff & Thierry Gouttenègre*
+Les polices typographiques en Europe | *Eric James, Richard Southall Southall, Peter Karow, René Kerfante, Jürgen Siebert...*
+Typographies d'Europe et lisibilité | *François Richaudeau*
+La lisibilité à l'écran | *Richard Southall*
+L'Atelier National de Création Typographique | *Georges Bonnin* 
+Le projet Didot: Programme européen d'enseignement de la typographie numérique | *Jacques André, Roger Hersh, Peter Karow, José Maria Sanchez-Cuest, Richard Southall, Piero De Macchi*
+Les créateurs de caractères en Europe | *Nicole Croix*
+Typographie de l'habillage et des génériques d'une chaîne de télévision européenne (LA SEPT) | *Philippe Truffault*
+
+----
+
+Details: 
+
+----
+
+Lecturers: F. Holtz Bonneau, Gérard Blanchard, James Mosley, Colin Banks, Roger Smith, Richard Southall, Fernand Baudin, Giorgio Montecchi, Cesare Maletto, Piero De Macchi, José-Maria Sanchez-Cuesta, Roger Châtelain, John Dreyfus, Ladislas Mandel, Gilles de Langsdorff, Matthew Carter, Jürgen Siebert, Rudy Geeraerts, Peter Karow, René Kerfante, Michel Olyff, Thierry Gouttenègre, Eric James, François Richaudeau, Georges Bonnin, Jacques André, Roger Hersh, Nicole Croix, Philippe Truffault, Jacques Monnier-Raball
+
+----
+
+Gallery:
+
+- 1991-prog-couv.jpg
+- 1991-prog-intro.jpg
+- 1991-prog-lundi.jpg
+- 1991-prog-lundi2.jpg
+- 1991-prog-mardi.jpg
+- 1991-prog-mardi2.jpg
+- 1991-prog-mercredi.jpg
+- 1991-prog-mercredi2.jpg
+- 1991-prog-jeudi.jpg
+- 1991-prog-jeudi2.jpg
+- 1991-prog-vendredi.jpg
+- 1991-prog-vendredi2.jpg
+
+----
+
+Year: 1991
+
+----
+
+Theme: 0lf6zjuw
+
+----
+
+People: 
+
+----
+
+Cover:
+
+- 1991-prog-couv-rect.png
