@@ -1,9 +1,0 @@
-Alt: 
-
-----
-
-Caption: Design graphique : Franck Adebaye
-
-----
-
-Layout: one_of_three

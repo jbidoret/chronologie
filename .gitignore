@@ -52,7 +52,7 @@ Icon
 # Content
 # ------------
 
-# /content/*
-# !/content/site.txt
-# !/content/home/home.txt
-# !/content/error/error.txt
+/content/*
+!/content/site.txt
+!/content/home/home.txt
+!/content/error/error.txt

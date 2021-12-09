@@ -1,9 +1,0 @@
-Alt: 
-
-----
-
-Caption: 
-
-----
-
-Layout: one_of_three

@@ -1,9 +1,0 @@
-Alt: 
-
-----
-
-Caption: Conception graphique : Nicolas Taffin
-
-----
-
-Layout: one_of_three
