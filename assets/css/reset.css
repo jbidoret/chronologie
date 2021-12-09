@@ -1,3 +1,7 @@
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
 body {
   font-family: var(--basefamily);
   font-size: var(--basesize);
@@ -6,6 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: var(--line-height);
+  background: var(--background-color);
 }
 
 *,
@@ -16,13 +21,8 @@ body {
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
+* {
+  margin: 0;
 }
 
 h1,
@@ -31,20 +31,25 @@ h3 {
   font-weight: 400;
 }
 
-.text p,
-.text ul,
-.text ol,
-.text blockquote {
+p,
+blockquote {
   max-width: 75ch;
-}
-
-img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
 }
 
 a {
   color: currentColor;
   text-decoration: none;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
 }

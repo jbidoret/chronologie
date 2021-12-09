@@ -4,18 +4,22 @@ tabs:
   content:
     label: Contenu
     columns:
-      - width: 2/3   
+      - width: 2/3
         sections:
           data:
-            type: fields   
+            type: fields
             fields:
-              year:
-                label: Année
-                type: text
+              subtitle:
+                label: Sous-titre
+                type: writer
               introduction:
-                label: Introduction
-                type: markdown
+                label: Introduction – accueil
+                type: writer
                 help: Ne s’affiche que sur la page d’accueil
+              introduction_text:
+                label: Introduction – session
+                type: writer
+                help: Ne s’affiche que sur la page de la session
               text:
                 label: Texte / Édito / Programme
                 type: markdown
@@ -30,22 +34,29 @@ tabs:
           fields:
             type: fields
             fields:
+              year:
+                label: Année
+                type: text
               cover:
                 type: files
                 label: Image de couverture
                 multiple: false
-              people:
+              lecturers:
                 type: tags
                 label: Intervenants
-          files: 
+          files:
             type: files
             headline: Fichiers
   medias:
     label: Médias
-    fields: 
+    fields:
+      gallery_title:
+        type: text
+        default: le programme en images
+        label: Titre de la galerie d’images
       gallery:
         type: files
-        label: Images du programme
+        label: Images 
         info: "{{file.layout}}"
         layout: cards
       photos:

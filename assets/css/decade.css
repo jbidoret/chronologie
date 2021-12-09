@@ -1,0 +1,48 @@
+.decade-detail h1 {
+  font-size: var(--huge-size);
+  margin: 0 0 var(--huge-size);
+  line-height: 1;
+}
+
+.session {
+  --yearwidth: 4em;
+  position: relative;
+  display: grid;
+  grid-template-columns: var(--yearwidth) 4fr 2fr;
+  grid-gap: var(--margin);
+  margin: 0 0 var(--margin) 0;
+  padding: var(--padding);
+  border-top: 1px solid rgba(0, 0, 0, 1);
+}
+
+.session-year {
+  position: sticky;
+  top: calc( var(--headerheight) + var(--padding));
+  align-self: flex-start;
+}
+
+.session-link h3 {
+  color: var(--accent-color);
+  line-height: var(--line-height);
+  margin-bottom: 1em;
+}
+.session-cover{
+  margin: var(--padding) 0;
+}
+
+.session-aside{
+  padding-top: calc(var(--basesize) * 1.5 + var(--padding) * 2);
+}
+
+
+.prevnext {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  padding: var(--padding);
+  margin: 0 0 var(--padding);
+}
+.prevnext:last-child {
+  border-bottom: none;
+  border-top:  1px solid #000;
+}

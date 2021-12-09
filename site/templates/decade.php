@@ -16,27 +16,24 @@
     </article>
     
     <section class="sessions">
-      <?php foreach ($page->children()->listed()->template("session") as $session) :?>        
-        <a href="<?= $session->url() ?>" class="session-link">
-          <h3><?= $session->title() ?></h3>
-          <?php if ($session->introduction()->isNotEmpty()) :?>
-            <div class="session-introduction">
-              <?= $session->introduction()->excerpt(200, false, " […]")?>
-            </div>
-          <?php endif ?>
-          <?php if ($session->cover()->isNotEmpty()) :?>
-          <figure class="session-cover">
-            <?php $image = $session->cover()->toFile() ?>
-            <img loading="lazy" width="<?= $image->width() ?>" height="<?= $image->height() ?>" src="<?= $image->thumb('default')->url()?>" alt="<?= $image->alt()?>" >
-          </figure>
-          <?php endif ?>
-        </a>
+      <?php foreach ($page->children()->listed()->template("session") as $session) :?>
+        <?php snippet("session", ["session"=>$session]) ?>
       <?php endforeach ?>
     </section>
 
     <?php foreach ($page->children()->listed()->template("story") as $story):?>
       <?php snippet("story", ["story"=>$story]) ?>
     <?php endforeach ?>
+
+    <nav class="prevnext">
+      <?php $decades = $page->siblings($self = true) ?>
+      <?php if ($page->hasPrevListed($decades)): $prev = $page->prevListed($decades);?>
+        <a href="<?= $prev->url() ?>">← <?= $prev->title() ?></a>
+      <?php endif ?>
+      <?php if ($page->hasNextListed($decades)): $next = $page->nextListed($decades);?>
+        <a href="<?= $next->url() ?>"><?= $next->title() ?> →</a>
+      <?php endif ?>
+    </nav>
 
   </main>
 <?php snippet('footer') ?>

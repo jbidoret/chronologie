@@ -37,7 +37,8 @@ return [
     'driver' => 'im',
     'bin' => '/usr/bin/convert',
     'presets' => [
-            'default' => [ 'width' => 600 ],
+      'default' => [ 'width' => 600 ],
+      'square' => [ 'width' => 300, 'height' => 300, 'crop' => 'center' ],
       'listitem' => [ 'width' => 300, 'height' => 170, 'crop' => 'center' ],
     ],
     'srcsets' => [

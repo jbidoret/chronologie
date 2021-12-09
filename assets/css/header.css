@@ -3,12 +3,21 @@
   align-items: center;
   justify-content: space-between;
   padding: var(--padding);
+  border-bottom: 1px solid #000;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--background-color);
+  height: var(--headerheight);
+  overflow: hidden;
+  z-index: 10001;
 }
-#nav ul {
-  list-style-type: none;
+#header * {
+  font-size: 1rem;
+}
+#nav {
   display: flex;
 }
-
-#nav ul li {
-  margin-left: 0.5em;
+#nav select {
+  margin-left: 1em;
 }

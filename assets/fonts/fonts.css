@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'Antique Olive';
+  src: url('AntiqueOliveStd-Roman.woff2') format('woff2'),
+    url('AntiqueOliveStd-Roman.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Antique Olive';
+  src: url('AntiqueOliveStd-Bold.woff2') format('woff2'),
+    url('AntiqueOliveStd-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Antique Olive';
+  src: url('AntiqueOliveStd-Italic.woff2') format('woff2'),
+    url('AntiqueOliveStd-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Antique Olive';
+  src: url('AntiqueOliveStd-Light.woff2') format('woff2'),
+    url('AntiqueOliveStd-Light.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+}
+
+
+
+
+@font-face {
+  font-family: 'InputMono';
+  src: url('InputMono-Bold.woff2') format('woff2'),
+      url('InputMono-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'InputMono';
+  src: url('InputMono-Black.woff2') format('woff2'),
+      url('InputMono-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'InputMono ExLight';
+  src: url('InputMono-ExtraLight.woff2') format('woff2'),
+      url('InputMono-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'InputMono ExLight';
+  src: url('InputMono-ExtraLightItalic.woff2') format('woff2'),
+      url('InputMono-ExtraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'InputMono';
+  src: url('InputMono-BoldItalic.woff2') format('woff2'),
+      url('InputMono-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'InputMono';
+  src: url('InputMono-BlackItalic.woff2') format('woff2'),
+      url('InputMono-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'InputMono';
+  src: url('InputMono-Thin.woff2') format('woff2'),
+      url('InputMono-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'InputMono';
+  src: url('InputMono-Medium.woff2') format('woff2'),
+      url('InputMono-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'InputMono';
+  src: url('InputMono-ThinItalic.woff2') format('woff2'),
+      url('InputMono-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'InputMono';
+  src: url('InputMono-MediumItalic.woff2') format('woff2'),
+      url('InputMono-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'InputMono';
+  src: url('InputMono-Light.woff2') format('woff2'),
+      url('InputMono-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'InputMono';
+  src: url('InputMono-LightItalic.woff2') format('woff2'),
+      url('InputMono-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'InputMono';
+  src: url('InputMono-Regular.woff2') format('woff2'),
+      url('InputMono-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'InputMono';
+  src: url('InputMono-Italic.woff2') format('woff2'),
+      url('InputMono-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+

@@ -18,7 +18,7 @@
             <?php if ($decade->cover()->isNotEmpty()) :?>
             <figure class="decade-cover">
               <?php $image = $decade->cover()->toFile() ?>
-              <img loading="lazy" width="<?= $image->width() ?>" height="<?= $image->height() ?>" src="<?= $image->thumb('default')->url()?>" alt="<?= $image->alt()?>" >
+              <img loading="lazy" width="<?= $image->width() ?>" height="<?= $image->height() ?>" srcset="<?= $image->srcset("square") ?>" src="<?= $image->thumb('square')->url()?>" alt="<?= $image->alt()?>" >
             </figure>
             <?php endif ?>
             <?= $decade->title() ?>

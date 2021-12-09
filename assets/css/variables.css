@@ -1,11 +1,17 @@
 :root {
-  --basesize: 1.15rem;
-  --basefamily: Georgia, serif;
-  --line-height: 1.4;
+  --basesize: 1rem;
+  --basefamily: 'Antique Olive', 'InputMono', monospace;
+  --line-height: 1.5rem;
   --text-color: rgba(0, 0, 0, 0.75);
-  --background-color: #eee;
+  --accent-color: #ff440b;
+  --second-color: #1ba0e2;
+  --background-color: #fff;
   --padding: 1em;
   --margin: 2em;
+
+  --huge-size: calc(1em + 2vw);
+
+  --headerheight: calc( var(--basesize) * 1.5 + var(--padding) * 2 + 1px);
 }
 @media (max-width: 800px) {
   :root {
