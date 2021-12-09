@@ -1,5 +1,17 @@
 #PHP 8.0 : 
 
+# To publish on O2switch, uncommment next lines :
+
+# <FilesMatch \.php$>
+# SetHandler application/x-httpd-php80
+# </FilesMatch>
+# AddHandler application/x-httpd-php80 .php
+
+# AuthType Basic
+# AuthName "Protected"
+# AuthUserFile /home2/multiple/chronologie/.htpasswd
+# Require valid-user
+
 
 # Kirby .htaccess
 # revision 2020-06-15
