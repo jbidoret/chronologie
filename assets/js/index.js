@@ -101,6 +101,7 @@ var ajaxRequest = new (function () {
 
         // close button
         var close = document.createElement('button');
+        close.className="decade-button";
         decade.querySelector('header').appendChild(close);
         close.textContent = "fermer";
         close.addEventListener('click', function(e){

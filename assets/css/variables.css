@@ -9,9 +9,9 @@
   --background-color: #fff;
   --padding: 1rem;
   --margin: 2rem;
-  --yearwidth: 4em;
+  --yearwidth: 8em;
   --huge-size: calc(1em + 2vw);
-
+  --big-size : 1.5em;
   --headerheight: calc( var(--basesize) * 1.5 + var(--padding) * 2 + 1px);
 }
 @media (max-width: 800px) {

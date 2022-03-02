@@ -2,17 +2,27 @@
   <main class="decade" data-slug="<?= $page->slug() ?>">
     
     <article class="decade-detail">
-      <header>
-        <h1><?= $page->title()->html() ?></h1>
+      <header class="max decade-header">
+        <h2 class="decade-title">
+          <a href="<?= $page->url() ?>" class="decade-link">
+            <?= preg_replace('/–(\w+)?/i', '<br>↪', $page->title()->value()) ?>
+            <!-- <?= preg_replace('/–(\w+)?/i', '<br>', $page->title()->value()) ?> -->
+          </a>
+        </h2>
+        <div class="decade-intro">
+          <?php if($page->subtitle()->isNotEmpty()): ?>
+            <h3 class="decade-subtitle">
+            <a href="<?= $page->url() ?>" class="decade-link"><?= $page->subtitle() ?></a>
+            </h3>
+          <?php endif ?>
+          <?php if($page->introduction()->isNotEmpty()): ?>
+            <?= $page->introduction()->kt() ?>
+          <?php else :?>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>
+          <?php endif ?>
+          
+        </div>
       </header>
-      
-      <div class="decade-intro">
-        <?php if ($page->introduction()->isNotEmpty()) :?>
-          <div class="introduction">
-            <?= $page->introduction()->kt()?>
-          </div>
-        <?php endif ?>
-      </div>
     </article>
     
     <section class="decade-sessions" id="decade-sessions" data-decade="<?= $page->slug() ?>">

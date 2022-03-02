@@ -1,7 +1,7 @@
 
 .session-detail > .max {
   display: grid;
-  grid-template-columns: var(--yearwidth) 4fr 2fr;
+  grid-template-columns: var(--yearwidth) 4fr 275px;
   grid-gap: var(--margin);
 }
 .session-introduction {
@@ -11,7 +11,7 @@
   grid-column: 1 / -1;
   display: grid;
   grid-template-columns: var(--yearwidth) 1fr;
-  grid-gap: var(--margin);
+  grid-gap: 0 var(--margin);
 }
 .session-text {
   grid-column: 2;
@@ -19,6 +19,11 @@
   margin-bottom: 2em;
 }
 
+.session-header .session-subtitle {
+  font-size: var(--big-size);
+  font-family: var(--basefamily);
+  margin-top: .5em;
+}
 .session-aside {
   grid-column: 3;
   font-size: 0.85em;
@@ -37,7 +42,8 @@
 .session-header h3 {
   background: var(--accent-color);
   display: flex;
-  padding-top: .6em;
+  /* padding-top: .6em; */
+  align-items: center;
   justify-content: center;
   height: 75%;
   top: 0;
@@ -122,8 +128,8 @@ h2 + .main-text {
   background: #000;
   color:white;
 }
-.gallery{
-  
+.gallery figure{
+  /* box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, .2); */
 }
 .gallery figcaption {
   --padding: 1.5em;

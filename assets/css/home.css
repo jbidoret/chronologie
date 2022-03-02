@@ -7,9 +7,10 @@
 .home-intro p {
   font-size: var(--huge-size);
   line-height: 1.2;
-  max-width: 52ch;
+  max-width: 42ch;
   padding: var(--padding);
-  
+  font-variation-settings: 'opsz' 65;
+  font-family: var(--basefamily);
 }
 .decades {
   list-style-type: none;
@@ -20,47 +21,46 @@
   border-top: 1px solid #000;
   scroll-margin-top: calc(var(--headerheight) - 1px);
 }
+#header ~ .decade {
+  border-top: none;
+}
 .decade-header {
   display: grid;
-  grid-template-columns: var(--yearwidth) 4fr 2fr;
+  grid-template-columns: var(--yearwidth) 4fr 275px;
   grid-gap: var(--margin);
   margin-bottom: 3em;
 }
+.decade-header > .decade-button,
 .decade-header > button {
   align-self: start;
   justify-self: start;
-  border: 3px solid;
-  padding: .25em .75em .05em;
-  text-transform: uppercase;
-  font-family: var(--basefamily);
-  letter-spacing: .05em;
-  font-size: .85em;
-  background: none;
-  border-radius: 1em;
-  cursor: pointer;
-  margin: 1em 0 0 -3px;
+ 
 }
 .decade-title {
   font-size: 1em;
-  padding-top: .35em;
+  font-size: var(--huge-size);
+  font-size: 1.5em;
+  padding-top: .25em;
   font-weight: normal;
 }
 .decade-intro{
   font-family: var(--altfamily);
-  font-weight: 450;
-  font-variation-settings: 'opsz' 15; 
+  /* font-weight: 450; */
 }
-.decade-intro p:last-child {
-  margin-top: 1em;
-}
+.decade-intro p {
+  font-size: 1.5em;
+  margin: 0;
+} 
+
 .decade-subtitle {
   font-family: var(--basefamily);
   font-size: var(--huge-size);
   margin: 0 0 .25em;
+  color: var(--accent-color);
 }
-.visible .decade-button { display: none;}
+.visible a.decade-button { display: none;}
 .decade-button {
-  border: 3px solid;
+  border: 3px solid black;
   padding: .25em .75em .05em;
   text-transform: uppercase;
   font-family: var(--basefamily);
@@ -70,6 +70,15 @@
   border-radius: 1em;
   cursor: pointer;
   margin: 1em 0 0 -3px;
+  /* opacity: .5; */
+  transition: all 150ms;
+}
+.decade-button:hover{
+  color: var(--accent-color);
+}
+.decade:hover .decade-button {
+  opacity: 1;
+  border-color: var(--accent-color);
 }
 .decade-sessions {
   margin: 0 calc(-1 * var(--padding));

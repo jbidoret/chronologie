@@ -1,6 +1,8 @@
 .session-context {
-  font-size: 0.85em;
   margin-bottom: var(--margin);
+}
+.session-context p{
+  font-size: .85em;
 }
 .session-context h3 {
   color: var(--second-color);
@@ -8,7 +10,7 @@
 }
 .session-context p,
 .session-context img {
-  max-width: 32ch;
+  max-width: 275px;
 }
 .context-cover{
   margin: var(--padding) 0;

@@ -19,21 +19,23 @@
           <h2 class="decade-title">
             <a href="<?= $decade->url() ?>" class="decade-link">
               <?= preg_replace('/–(\w+)?/i', '<br>↪', $decade->title()->value()) ?>
+              <!-- <?= preg_replace('/–(\w+)?/i', '<br>', $decade->title()->value()) ?> -->
             </a>
           </h2>
           <div class="decade-intro">
             <?php if($decade->subtitle()->isNotEmpty()): ?>
-              <h3 class="decade-subtitle"><?= $decade->subtitle() ?></h3>
+              <h3 class="decade-subtitle">
+              <a href="<?= $decade->url() ?>" class="decade-link"><?= $decade->subtitle() ?></a>
+              </h3>
             <?php endif ?>
             <?php if($decade->introduction()->isNotEmpty()): ?>
               <?= $decade->introduction()->kt() ?>
             <?php else :?>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>
             <?php endif ?>
-            <p>
-            <a class="decade-button decade-link" href="<?= $decade->url() ?>">ouvrir</a>
-            </p>
+            
           </div>
+          <a class="decade-button decade-link" href="<?= $decade->url() ?>">ouvrir</a>
         </header>
         <div id="decade-<?= $decade->slug() ?>-content" class="decade-content"></div>
       </section>
