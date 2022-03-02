@@ -1,6 +1,5 @@
 #footer{
   border-top: 1px solid #000;
-  margin-top: var(--margin);
   padding: var(--padding);
   font-size: .85em;
 }

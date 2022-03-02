@@ -1,6 +1,8 @@
 
   <footer id="footer">
-    <?= $site->footer()->kt() ?>
+    <div class="max">
+      <?= $site->footer()->kt() ?>
+    </div>
   </footer>
 
   <?= js("assets/glightbox/glightbox.min.js") ?>

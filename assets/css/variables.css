@@ -1,14 +1,15 @@
 :root {
   --basesize: 1rem;
-  --basefamily: 'Antique Olive', 'InputMono', monospace;
-  --line-height: 1.5rem;
+  --basefamily: 'Antique Olive', monospace;
+  --altfamily: 'Source Serif VF', serif;
+  --line-height: 1.45em;
   --text-color: rgba(0, 0, 0, 0.75);
   --accent-color: #ff440b;
   --second-color: #1ba0e2;
   --background-color: #fff;
-  --padding: 1em;
-  --margin: 2em;
-
+  --padding: 1rem;
+  --margin: 2rem;
+  --yearwidth: 4em;
   --huge-size: calc(1em + 2vw);
 
   --headerheight: calc( var(--basesize) * 1.5 + var(--padding) * 2 + 1px);

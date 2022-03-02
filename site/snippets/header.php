@@ -20,36 +20,38 @@
    data-intended-template="<?php echo $page->intendedTemplate() ?>">
 
   <header id="header">
-    <h1><a href="<?= $site->url() ?>"><?= $site->title() ?></a></h1>
-    
-    <nav id="nav">
-      <select class="decades">
-      <?php foreach ($site->children()->listed() as $p): ?>
-        <option <?php e($p->isOpen(), 'selected') ?> value="<?= $p->url() ?>"><?= $p->title() ?></option>
-      <?php endforeach ?>
-      </select>
-      <?php if ($page->intendedTemplate() == "session"):  ?>
-        <select class="years">
-        <?php foreach ($page->siblings()->listed() as $sub): ?>
-          <option <?php e($sub->isOpen(), 'selected') ?> value="<?= $sub->url() ?>"><?= $sub->year() ?></option>
+    <div class="max">
+      <h1><a href="<?= $site->url() ?>"><?= $site->title() ?></a></h1>
+      
+      <nav id="nav">
+        <ul class="decades dropdown">
+        <?php foreach ($site->children()->listed() as $p): ?>
+          <li <?php e($p->isOpen(), 'class="selected"') ?>><a href="<?= $p->url() ?>"><?= $p->title() ?></a></li>
         <?php endforeach ?>
-        </select>
-      <?php endif ?>
-      <div id="search-bar">
-        
-        <button type="button" id="search-navbutton" class="search-button">
-          <svg viewBox="0 0 24 24" sizes="" class="search-icon"><path fill="#000000" d="M17.121 15l5.598 5.597a.5.5 0 010 .707l-1.415 1.415a.5.5 0 01-.707 0L15 17.12 17.121 15z"></path><path fill="#16161d" fill-rule="evenodd" d="M10.5 19a8.5 8.5 0 100-17 8.5 8.5 0 000 17zm0-2.75a5.75 5.75 0 100-11.5 5.75 5.75 0 000 11.5z" clip-rule="evenodd"></path></svg>
-        </button>
-        <form action="<?= page("recherche")->url()?>" class="search-form">
-          <input type="search" name="q" id="search-input" class="search-input"  value="<?php if(isset($query)) {
-              echo html($query);
-          } ?>">
-          <button type="submit" class="search-button" id="search-button" >
+        </ul>
+        <?php if ($page->intendedTemplate() == "session"):  ?>
+          <ul class="years dropdown">
+          <?php foreach ($page->siblings()->listed() as $sub): ?>
+            <li <?php e($sub->isOpen(), 'class="selected"') ?>><a href="<?= $sub->url() ?>"><?= $sub->year() ?></a></li>
+          <?php endforeach ?>
+          </ul>
+        <?php endif ?>
+        <div id="search-bar">
+          
+          <button type="button" id="search-navbutton" class="search-button">
             <svg viewBox="0 0 24 24" sizes="" class="search-icon"><path fill="#000000" d="M17.121 15l5.598 5.597a.5.5 0 010 .707l-1.415 1.415a.5.5 0 01-.707 0L15 17.12 17.121 15z"></path><path fill="#16161d" fill-rule="evenodd" d="M10.5 19a8.5 8.5 0 100-17 8.5 8.5 0 000 17zm0-2.75a5.75 5.75 0 100-11.5 5.75 5.75 0 000 11.5z" clip-rule="evenodd"></path></svg>
           </button>
-        </form>
-        </div>    
-    </nav>
+          <form action="<?= page("recherche")->url()?>" class="search-form">
+            <input type="search" name="q" id="search-input" class="search-input"  value="<?php if(isset($query)) {
+                echo html($query);
+            } ?>">
+            <button type="submit" class="search-button" id="search-button" >
+              <svg viewBox="0 0 24 24" sizes="" class="search-icon"><path fill="#000000" d="M17.121 15l5.598 5.597a.5.5 0 010 .707l-1.415 1.415a.5.5 0 01-.707 0L15 17.12 17.121 15z"></path><path fill="#16161d" fill-rule="evenodd" d="M10.5 19a8.5 8.5 0 100-17 8.5 8.5 0 000 17zm0-2.75a5.75 5.75 0 100-11.5 5.75 5.75 0 000 11.5z" clip-rule="evenodd"></path></svg>
+            </button>
+          </form>
+          </div>    
+      </nav>
+    </div>
 
   </header>
   <div id="search-overlay"></div>

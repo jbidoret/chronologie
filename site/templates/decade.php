@@ -15,7 +15,7 @@
       </div>
     </article>
     
-    <section class="sessions">
+    <section class="decade-sessions" id="decade-sessions" data-decade="<?= $page->slug() ?>">
       <?php foreach ($page->children()->listed()->template("session") as $session) :?>
         <?php snippet("session", ["session"=>$session]) ?>
       <?php endforeach ?>

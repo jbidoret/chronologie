@@ -16,9 +16,7 @@
 .searching { pointer-events: none; }
 .searching ~ #search-overlay {display: block;}
 .searching  .logo, #menu, #search-bar{ pointer-events: all;}
-#search-bar {
-  margin-left: 1em;
-}
+
 .search-button {
   background: transparent;
   border: none;
@@ -31,21 +29,31 @@
   position: relative;
   z-index: 1001;
   justify-content: space-between;
-  padding: 0 .5em 0 0;
-  border: 1px solid #000;
+  border: 3px solid;
+  padding: .25em .75em .05em;
+  text-transform: uppercase;
+  font-family: var(--basefamily);
+  letter-spacing: .05em;
+  font-size: .85em;
+  background: white;
+  border-radius: 1em;
+  margin-top: -.2em;
 }
 .search-icon {  height: 1.25em;}
 #search-bar.opened #search-navbutton { display: none;}
+#search-bar.opened #search-button {
+  top: -.1em;
+}
 #search-bar.opened .search-form {  display: flex; }
 .search-form .search-button { top: 0; }
 .search-input {
-  border: 1px solid white;
-  padding: .15em 0 .15em .5em;
+  border: none;
+  padding: 0;
   outline: none;
   font-size: .85em;
   min-width: 10em;
   flex: 1;
-  font-family: var(--altfamily);
+  font-family: var(--basefamily);
 }
 
 

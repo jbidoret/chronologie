@@ -1,8 +1,29 @@
+
+.session-detail > .max {
+  display: grid;
+  grid-template-columns: var(--yearwidth) 4fr 2fr;
+  grid-gap: var(--margin);
+}
+.session-introduction {
+  grid-column: 1 / span 4;
+}
 .session-header {
   grid-column: 1 / -1;
   display: grid;
-  grid-template-columns: 6.5em 1fr;
+  grid-template-columns: var(--yearwidth) 1fr;
+  grid-gap: var(--margin);
 }
+.session-text {
+  grid-column: 2;
+  grid-row: span 2;
+  margin-bottom: 2em;
+}
+
+.session-aside {
+  grid-column: 3;
+  font-size: 0.85em;
+}
+
 .session-header div{
   grid-column: 2;
   margin-top: 1em;
@@ -16,24 +37,29 @@
 .session-header h3 {
   background: var(--accent-color);
   display: flex;
-  align-items: center;
+  padding-top: .6em;
+  justify-content: center;
   height: 75%;
   top: 0;
   color: white;
-  padding: 0 var(--padding);
-  margin-right: 1em;
   position: relative;
 }
 
 h2 + .main-text {
   margin-top: 1em;
 }
+.main-text p,
+.main-text ul,
+.main-text blockquote,
+.main-text ol {
+  font-size: 1.125em;
+}
 
 .main-text h2,
 .main-text h3,
 .main-text h4,
 .main-text p {
-  margin: 1em 0;
+  margin: .75em 0;
 }
 .main-text hr {
   background: none;
@@ -55,27 +81,12 @@ h2 + .main-text {
 .main-text a:hover{
   color: var(--accent-color);
 }
-.session-introduction {
-  grid-column: 1 / span 4;
-}
-.session-text {
-  grid-column: 1 / span 4;
-  grid-row: span 2;
-  padding-left: 6.5em;
-}
-.session-text-text {
-  /* columns: 4;
-  column-gap: var(--padding); */
-}
+
 .session-text-text p {
   break-inside: avoid;
   margin-top: 0;
 }
 
-.session-aside {
-  grid-column: 5 / span 2;
-  font-size: 0.85em;
-}
 .session-aside :first-child { margin-top: 0;}
 .session-aside p,
 .session-aside ul {
@@ -85,13 +96,8 @@ h2 + .main-text {
 .session-aside h3 {
   margin: 1em 0 0;
 }
-.session-lecturers {
-  grid-column: 1 / -1;
-  border-top: 1px solid #000;
-  padding: var(--padding);
-  margin: 0 calc(var(--padding)* -1);
-}
-.session-lecturers ul { list-style-type: none; margin: 0; padding: 0; display: inline; }
+
+.session-lecturers ul { list-style-type: none; margin: 0; padding: 0; }
 .session-lecturers li, .session-lecturers p {display: inline;}
 .session-lecturers li:not(:last-child)::after {content: ", ";}
 .session-lecturers li:last-child::after { content: ".";}
@@ -100,18 +106,21 @@ h2 + .main-text {
   font-size: 1em;
   margin: 1em 0;
 }
-.session-detail,
+
 .gallery {
-  margin: 40px auto;
+  margin: var(--padding) 0 ;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-gap: 40px;
+  grid-gap: var(--margin);
   max-width: 2000px;
+  padding: 0 var(--padding);
 }
 
 
 .session-gallery{
   border-top: 1px solid #000;
+  background: #000;
+  color:white;
 }
 .gallery{
   

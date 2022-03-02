@@ -2,10 +2,10 @@ title: Décennie
 
 options:
   changeSlug: false
-  changeTitle: false
+  # changeTitle: false
   duplicate: false
   delete: false
-  changeStatus: false
+  # changeStatus: false
 
 columns:
   - width: 2/3
@@ -13,6 +13,9 @@ columns:
       meta:
         type: fields
         fields:
+          subtitle:
+            label: Sous-titre
+            type: text
           introduction:
             type: markdown
             label: Introduction

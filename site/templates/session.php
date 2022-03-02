@@ -5,6 +5,7 @@
 
     <article class="session-detail">
 
+      <div class="max">
       <header class="session-header">
         <h3><?= $page->year()->html() ?></h3>
         <h1><?= $page->title()->html() ?></h1>
@@ -26,10 +27,22 @@
 
       <?php if ($page->text()->isNotEmpty()): ?>
         <div class="session-text">
-          <h2>Le programme</h2>
           <div class="session-text-text main-text">
             <?= $page->text()->kt()?>
           </div>
+
+          <?php if ($page->lecturers()->isNotEmpty()) :?>
+            <aside class="session-lecturers main-text">
+              <h2>Intervenants </h2>
+              <ul>
+              <?php $lecturers = $page->lecturers()->split();
+              sort($lecturers);
+                foreach ($lecturers as $lecturer): ?>
+                <li><a href="<?= page("recherche")->url(['params' => ["tag"=> urlencode($lecturer) ]]) ?>"><?= $lecturer ?></a></li><?php endforeach ?>
+              </ul>
+            </aside>
+          <?php endif ?>
+          
         </div>
       <?php endif ?>
 
@@ -50,15 +63,8 @@
         </aside>
       <?php endif ?>
     
-      <?php if ($page->lecturers()->isNotEmpty()) :?>
-        <aside class="session-lecturers main-text">
-          <p>Intervenants : </p>
-          <ul>
-          <?php foreach ($page->lecturers()->split() as $lecturer): ?>
-            <li><a href="<?= page("recherche")->url(['params' => ["tag"=> urlencode($lecturer) ]]) ?>"><?= $lecturer ?></a></li><?php endforeach ?>
-          </ul>
-        </aside>
-      <?php endif ?>
+      
+      </div>
     
     </article>
 
@@ -74,7 +80,9 @@
     })->sortBy('sort')->toFiles();
      if ($gallery->count()) :?>
       <div class="session-gallery">
-        <h3><?= $page->year() ?> — <?= r($page->gallery_title()->isNotEmpty(), $page->gallery_title(), "le programme en images") ?></h3>
+        <div class="max">
+          <h3><?= $page->year() ?> — <?= r($page->gallery_title()->isNotEmpty(), $page->gallery_title(), "le programme en images") ?></h3>
+        </div>
         <div class="gallery">
           <?php foreach ($gallery as $image) : ?>     
           <figure class="<?= $image->layout() ?>">

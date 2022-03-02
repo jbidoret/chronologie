@@ -5,17 +5,20 @@
 }
 
 .session {
-  --yearwidth: 4em;
+  padding: var(--padding);
+  border-top: 1px solid rgba(0, 0, 0, 1);
+}
+.session .max {
+  
   position: relative;
   display: grid;
   grid-template-columns: var(--yearwidth) 4fr 2fr;
   grid-gap: var(--margin);
   margin: 0 0 var(--margin) 0;
-  padding: var(--padding);
-  border-top: 1px solid rgba(0, 0, 0, 1);
 }
 
 .session-year {
+  font-family: var(--basefamily);
   position: sticky;
   top: calc( var(--headerheight) + var(--padding));
   align-self: flex-start;
@@ -26,23 +29,27 @@
   line-height: var(--line-height);
   margin-bottom: 1em;
 }
+
 .session-cover{
   margin: var(--padding) 0;
 }
 
 .session-aside{
-  padding-top: calc(var(--basesize) * 1.5 + var(--padding) * 2);
+  /* padding-top: calc(var(--basesize) * 1.5 + var(--padding) * 2); */
 }
 
-
 .prevnext {
-  display: flex;
-  justify-content: space-between;
   border-bottom: 1px solid #000;
   padding: var(--padding);
   margin: 0 0 var(--padding);
+  font-family: var(--basefamily);
+}
+.prevnext .max {
+  display: flex;
+  justify-content: space-between;
 }
 .prevnext:last-child {
   border-bottom: none;
   border-top:  1px solid #000;
+  margin-bottom: 0;
 }

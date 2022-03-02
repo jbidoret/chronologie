@@ -1,21 +1,76 @@
-#home {
+.decade {
   padding: var(--padding);
 }
-.home-intro {
-  margin: var(--margin) 0;
+.home-intro .max {
+  margin-bottom: 3em;
 }
-.decades ul {
+.home-intro p {
+  font-size: var(--huge-size);
+  line-height: 1.2;
+  max-width: 52ch;
+  padding: var(--padding);
+  
+}
+.decades {
   list-style-type: none;
+  margin: 0;  
+  padding: 0;
+}
+.decade {
+  border-top: 1px solid #000;
+  scroll-margin-top: calc(var(--headerheight) - 1px);
+}
+.decade-header {
   display: grid;
+  grid-template-columns: var(--yearwidth) 4fr 2fr;
   grid-gap: var(--margin);
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin-bottom: 3em;
 }
-
-.decades figure{
-  aspect-ratio: 1/1;
+.decade-header > button {
+  align-self: start;
+  justify-self: start;
+  border: 3px solid;
+  padding: .25em .75em .05em;
+  text-transform: uppercase;
+  font-family: var(--basefamily);
+  letter-spacing: .05em;
+  font-size: .85em;
+  background: none;
+  border-radius: 1em;
+  cursor: pointer;
+  margin: 1em 0 0 -3px;
 }
-.decades img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.decade-title {
+  font-size: 1em;
+  padding-top: .35em;
+  font-weight: normal;
+}
+.decade-intro{
+  font-family: var(--altfamily);
+  font-weight: 450;
+  font-variation-settings: 'opsz' 15; 
+}
+.decade-intro p:last-child {
+  margin-top: 1em;
+}
+.decade-subtitle {
+  font-family: var(--basefamily);
+  font-size: var(--huge-size);
+  margin: 0 0 .25em;
+}
+.visible .decade-button { display: none;}
+.decade-button {
+  border: 3px solid;
+  padding: .25em .75em .05em;
+  text-transform: uppercase;
+  font-family: var(--basefamily);
+  letter-spacing: .05em;
+  font-size: .85em;
+  background: none;
+  border-radius: 1em;
+  cursor: pointer;
+  margin: 1em 0 0 -3px;
+}
+.decade-sessions {
+  margin: 0 calc(-1 * var(--padding));
 }

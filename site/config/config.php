@@ -37,11 +37,15 @@ return [
     'driver' => 'im',
     'bin' => '/usr/bin/convert',
     'presets' => [
+      'tiny' => [ 'width' => 200, 'height' => 112],
+      'small' => [ 'width' => 300 ],
       'default' => [ 'width' => 600 ],
       'square' => [ 'width' => 300, 'height' => 300, 'crop' => 'center' ],
       'listitem' => [ 'width' => 300, 'height' => 170, 'crop' => 'center' ],
     ],
     'srcsets' => [
+      'tiny' => [200, 350],
+      'small' => [300, 450],
       'default' => [300, 600, 800, 1024],
       'cover' => [800, 1024, 1536, 2048],
       'square' => [

@@ -3,30 +3,42 @@
 <main id="home">
 
   <?php if ($page->text()->isNotEmpty()): ?>
-    <div class="home-intro">
-      <?= $page->text()->kt() ?>
-    </div>
+    <section class="home-intro">
+      <div class="max">
+        <?= $page->text()->kt() ?>
+      </div>
+    </section>
   <?php endif ?>
     
-  <section class="decades">
-    <ul>
-      <?php
-      $decades = $site->children()->listed()->template('decade');
-      foreach ($decades as $decade): ?>
-        <li>
-          <a href="<?= $decade->url() ?>">
-            <?php if ($decade->cover()->isNotEmpty()) :?>
-            <figure class="decade-cover">
-              <?php $image = $decade->cover()->toFile() ?>
-              <img loading="lazy" width="<?= $image->width() ?>" height="<?= $image->height() ?>" srcset="<?= $image->srcset("square") ?>" src="<?= $image->thumb('square')->url()?>" alt="<?= $image->alt()?>" >
-            </figure>
+  <div class="decades">
+    <?php
+    $decades = $site->children()->listed()->template('decade');
+    foreach ($decades as $decade): ?>
+      <section class="decade" id="decade-<?= $decade->slug() ?>">
+        <header class="max decade-header">
+          <h2 class="decade-title">
+            <a href="<?= $decade->url() ?>" class="decade-link">
+              <?= preg_replace('/–(\w+)?/i', '<br>↪', $decade->title()->value()) ?>
+            </a>
+          </h2>
+          <div class="decade-intro">
+            <?php if($decade->subtitle()->isNotEmpty()): ?>
+              <h3 class="decade-subtitle"><?= $decade->subtitle() ?></h3>
             <?php endif ?>
-            <?= $decade->title() ?>
-          </a>
-        </li>
-      <?php endforeach ?>
-    </ul>
-  </section>
+            <?php if($decade->introduction()->isNotEmpty()): ?>
+              <?= $decade->introduction()->kt() ?>
+            <?php else :?>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>
+            <?php endif ?>
+            <p>
+            <a class="decade-button decade-link" href="<?= $decade->url() ?>">ouvrir</a>
+            </p>
+          </div>
+        </header>
+        <div id="decade-<?= $decade->slug() ?>-content" class="decade-content"></div>
+      </section>
+    <?php endforeach ?>
+  </div>
 
 </main>
 
